@@ -17,7 +17,7 @@ int main(){
     int l[] = {2,0,1,1,0,8,2,6};
     char cl[] = "August";
 
-    std::cout << max_element(l,8) << std::endl;
+    std::cout << max_element(l,8) << std::endl;  // std::cout << max_element<int>(1,8) << std::endl;
     std::cout << max_element(cl,6) << std::endl;
 
     return 0;
